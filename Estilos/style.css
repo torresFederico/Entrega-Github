@@ -20,6 +20,7 @@ body{
 
 header{
     background-color: #001a30;
+    background: linear-gradient(90deg, rgba(0,26,48,1) 0%, rgba(0,0,0,0.9920343137254902) 96%);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: space-between;
@@ -92,6 +93,19 @@ main h2{
     margin: 1rem;
 }
 
+/* animaciones */
+
+.mainIndex .containerUno .item:hover{
+    transform: scale(0.93);
+    transition: all 0.3s ease-in;
+}
+
+.mainIndex .containerDos .item:hover{
+    transform: scale(0.93);
+    transition: all 0.3s ease-in;
+}
+
+
 section.containerDos {
     display: flex;
     flex-direction: column;
@@ -101,8 +115,11 @@ section.containerDos article.item {
     width: 100%;
 }
 
+/* footer */
+
 footer{
     background-color: #001a30;
+    background: linear-gradient(90deg, rgba(0,26,48,1) 0%, rgba(0,0,0,0.9920343137254902) 96%);
     color: whitesmoke;
 }
 
